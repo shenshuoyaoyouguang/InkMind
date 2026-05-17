@@ -1,0 +1,23 @@
+appId: com.inkmind.app
+productName: InkMind
+directories:
+  output: release
+files:
+  - out/**/*
+  - package.json
+win:
+  target:
+    - nsis
+  icon: build/icon.png
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: InkMind
+asar: true
+publish:
+  provider: github
+  owner: YOUR_GITHUB_USERNAME
+  repo: 91writing
+  releaseType: release
