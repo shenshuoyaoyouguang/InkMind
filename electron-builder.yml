@@ -18,6 +18,6 @@ nsis:
 asar: true
 publish:
   provider: github
-  owner: YOUR_GITHUB_USERNAME
-  repo: 91writing
+  owner: shenshuoyaoyouguang
+  repo: InkMind
   releaseType: release
